@@ -35,11 +35,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="InTheHand, Version=10.2018.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\InTheHand.Pontoon.10.2018.10.2\lib\net452\InTheHand.dll</HintPath>
+    </Reference>
     <Reference Include="InTheHand.Net.Bluetooth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL">
       <HintPath>..\packages\InTheHand.Net.Bluetooth.4.0.31\lib\net461\InTheHand.Net.Bluetooth.dll</HintPath>
     </Reference>
+    <Reference Include="InTheHand.Net.IrDA, Version=4.0.2.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL">
+      <HintPath>..\packages\InTheHand.Net.IrDA.4.0.2\lib\netstandard2.0\InTheHand.Net.IrDA.dll</HintPath>
+    </Reference>
+    <Reference Include="InTheHand.Net.Obex, Version=4.0.0.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL">
+      <HintPath>..\packages\InTheHand.Net.Obex.4.0.4\lib\netstandard2.0\InTheHand.Net.Obex.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />

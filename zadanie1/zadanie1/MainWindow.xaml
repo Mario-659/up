@@ -7,8 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Skanuj" HorizontalAlignment="Left" Height="51" Margin="122,64,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click"/>
-        <ComboBox Name="devicesComboBox" HorizontalAlignment="Left" Margin="400,78,0,0" VerticalAlignment="Top" Width="166" Height="23" SelectionChanged="ComboBox_SelectionChanged"/>
-        <Label Content="Dostępne urządzenia" HorizontalAlignment="Left" Height="25" Margin="400,46,0,0" VerticalAlignment="Top" Width="166"/>
+        <Button Name="scanBtn" Content="Skanuj" HorizontalAlignment="Left" Height="51" Margin="122,64,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click"/>
+        <ComboBox Name="devicesComboBox" HorizontalAlignment="Left" Margin="359,78,0,0" VerticalAlignment="Top" Width="166" Height="23" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Label Content="Dostępne urządzenia" HorizontalAlignment="Left" Height="25" Margin="359,46,0,0" VerticalAlignment="Top" Width="166"/>
+        <Label Content="Wybrane urządzenie" HorizontalAlignment="Left" Height="23" Margin="588,78,0,0" VerticalAlignment="Top" Width="144"/>
+        <Label Name="selectedDeviceLabel" Content="" HorizontalAlignment="Left" Margin="574,106,0,0" VerticalAlignment="Top" Width="172" Height="29"/>
+        <Button Name="pairDeviceBtn" Content="Połącz z wybranym urządzeniem" HorizontalAlignment="Left" Margin="122,136,0,0" VerticalAlignment="Top" Height="46" Width="136" Click="Pair_Click"/>
+        <Button Name="chooseFileBtn" Content="Wybierz plik" HorizontalAlignment="Left" Height="38" Margin="122,217,0,0" VerticalAlignment="Top" Width="136" Click="Choose_File_Click"/>
+        <Label Content="Wybrany plik" HorizontalAlignment="Left" Margin="586,164,0,0" VerticalAlignment="Top" Height="35" Width="146"/>
+        <Label Name="filenameLabel" Content="" HorizontalAlignment="Left" Height="38" Margin="586,217,0,0" VerticalAlignment="Top" Width="102"/>
+        <Button Name="sendFileBtn" Content="Wyślij plik" HorizontalAlignment="Left" Margin="122,288,0,0" VerticalAlignment="Top" Height="33" Width="136" Click="Send_File_Click"/>
     </Grid>
 </Window>

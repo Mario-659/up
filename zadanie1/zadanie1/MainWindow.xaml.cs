@@ -67,6 +67,7 @@ namespace zadanie1
 
                     pairedDevice.Refresh();
                     pairedDevice.SetServiceState(BluetoothService.ObexObjectPush, true);
+                    
                     break;
                 }
             }

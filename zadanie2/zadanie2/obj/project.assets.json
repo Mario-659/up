@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "PCSC/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PCSC.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.dll": {}
+        }
+      },
+      "PCSC.Iso7816/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "PCSC": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PCSC/6.0.0": {
+      "sha512": "+BwwlRkJiCYq99RPSfaWJ6Dq7Q5Eoq+NkYhCG5URH4g4hbgYsHJaZENafZxxI6s+kH1Itv5p22KHVVrPyMn6Wg==",
+      "type": "package",
+      "path": "pcsc/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/netstandard2.0/PCSC.dll",
+        "lib/netstandard2.0/PCSC.pdb",
+        "lib/netstandard2.0/PCSC.xml",
+        "pcsc-sharp.png",
+        "pcsc.6.0.0.nupkg.sha512",
+        "pcsc.nuspec"
+      ]
+    },
+    "PCSC.Iso7816/6.0.0": {
+      "sha512": "9HQvQgKDRgO5suwfoyE+xvsu6xeBruuyveMKuApeOMKwJLUcwUrkb644G/nMd3LdKHFB6JedDCl4bTE14QN8tg==",
+      "type": "package",
+      "path": "pcsc.iso7816/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/netstandard2.0/PCSC.Iso7816.dll",
+        "lib/netstandard2.0/PCSC.Iso7816.pdb",
+        "lib/netstandard2.0/PCSC.Iso7816.xml",
+        "pcsc-sharp.png",
+        "pcsc.iso7816.6.0.0.nupkg.sha512",
+        "pcsc.iso7816.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "PCSC.Iso7816 >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\damia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\damia\\Pwr\\urzadenia_peryferyjne\\zadanie2\\zadanie2\\zadanie2.csproj",
+      "projectName": "zadanie2",
+      "projectPath": "C:\\Users\\damia\\Pwr\\urzadenia_peryferyjne\\zadanie2\\zadanie2\\zadanie2.csproj",
+      "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\damia\\Pwr\\urzadenia_peryferyjne\\zadanie2\\zadanie2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "PCSC.Iso7816": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

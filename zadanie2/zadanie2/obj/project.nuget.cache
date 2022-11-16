@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/I/q4RcPdeS9wQsH56JK3zJAU5CHEeGK+7bj0KhVrXIuJ0h0zDoSK1gTM79+cF+bkXSJ8+vQPbgZdOt73eAkUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\damia\\Pwr\\urzadenia_peryferyjne\\zadanie2\\zadanie2\\zadanie2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\damia\\.nuget\\packages\\pcsc\\6.0.0\\pcsc.6.0.0.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\pcsc.iso7816\\6.0.0\\pcsc.iso7816.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
